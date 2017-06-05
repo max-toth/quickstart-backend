@@ -21,6 +21,7 @@ buildscript {
 apply plugin: 'java'
 apply plugin: 'war'
 apply plugin: 'spring-boot'
+apply plugin: "io.franzbecker.gradle-lombok"
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
